@@ -1,29 +1,31 @@
 \documentclass{article}
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx}
 \usepackage{amsmath,amsthm,amssymb}
+\usepackage{gensymb}
+
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{tikz}
-\usetikzlibrary{positioning}
-\usetikzlibrary{calc}
+\usetikzlibrary{calc, positioning}
 \usepackage{float}
+
 \usepackage[margin=1in]{geometry}
-\usepackage{gensymb}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    filecolor=magenta,      
+    filecolor=magenta,
     urlcolor=cyan,
     pdftitle={Overleaf Example},
     pdfpagemode=FullScreen,
-    }
+}
+\urlstyle{same}
+\usepackage{xcolor}
+
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead[R]{Enoch Yu}
 \pagenumbering{gobble}
-\urlstyle{same}
-\usepackage{asymptote}
-\usepackage{xcolor}
+
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{sublemma}{Lemma}[section]
